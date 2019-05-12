@@ -1,5 +1,7 @@
 <?php
 
+use AdrianBav\Traffic\Middlewares\RecordVisits;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +15,4 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->middleware(RecordVisits::class);
