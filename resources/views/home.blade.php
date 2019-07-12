@@ -5,9 +5,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="These archives aim to preserve a definitive history of the Bavanco branding and online web presence through the years. Other Bavanco side projects are also archived here for completeness.">
+        <meta name="theme-color" content="#712321">
 
         <title>The Archives | Bavanco</title>
+        <meta name="description" content="These archives aim to preserve a definitive history of the Bavanco branding and online web presence through the years. Other Bavanco side projects are also archived here for completeness.">
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
         <!-- Bootstrap (CDN) -->
