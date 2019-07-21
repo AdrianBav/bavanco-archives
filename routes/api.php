@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +11,12 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:api')->get('/meta', function () {
+    return [
+        'item1' => 'spans %d years',
+        'number1' => 20,
+        'item2' => 'has %d domains',
+        'number2' => 3,
+        'info' => 'FULL history',
+    ];
 });
